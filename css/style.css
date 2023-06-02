@@ -285,5 +285,123 @@ h2 {
     height: 208px;
     padding: 98px 82px 64px 62px;
  }
- 
+ .pricing {
+    width: 100wv;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ .pricing_container {
+    margin-top: 100px;
+    width: 1266px;
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .pricing_boxs {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:58px;
+
+ }
+ .pricing_box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ .pricing_box1 {
+    width: 372px;
+    height: 461px;
+    background: var(--color-white) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--color-redish);
+    border-radius: 18px;
+ }
+ .pricing_box2 {
+    width: 405px;
+    height: 500px;
+    background: var(--color-white) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--color-primary);
+    border-radius: 18px;
+    box-shadow: 5px 10px 27px #07ACE629;
+ }
+ .pricing_box3 {
+    width: 372px;
+    height: 461px;
+    background: var(--color-white) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--color-green);
+    border-radius: 18px;
+ }
+ .pricing_box_title {
+    height: 24px;
+    padding-top: 34px;
+    padding-bottom: 14px;
+    font: normal normal bold 21px/1px Raleway;
+ }
+ .pricing_box_numbers {
+    height: 64px;
+    font: normal normal 300 46px Open Sans;
+ }
+ .pricing_box_numbers1 {
+    color: var(--color-redish);
+    margin-bottom: 69px;
+ }
+ .pricing_box_numbers2 {
+    color: var(--color-primary);
+    margin-bottom: 5px;
+    width: 93px;
+    height: 70px; 
+ }
+ .pricing_box_numbers3 {
+    color: var(--color-green);
+    margin-bottom: 5px; 
+    width: 85px;
+    height: 64px; 
+ }
+ .small_square {
+    padding-right: 10px;
+ }
+ .small_text_pricing{
+    height: 19px;
+    margin-bottom: 20px;
+    font: normal normal normal 14px/41px Open Sans;
+    color:var(--color-black);
+ }
+ .small_text_pricing_center {
+    margin-bottom: 26px;
+ }
+ .points {
+    text-align: center;
+ }
+ .very_small_text_pricing {
+    height: 14px;
+    font: normal normal bold 12px/1px Raleway;
+    color: #13253B;
+    margin-bottom: 50px;
+ }
+ .very_small_text_pricing_center{
+    margin-bottom: 61px;
+ }
+ .pricing_button {
+    width: 150px;
+    height: 50px;
+    border-radius: 23px;
+    border: none;
+    position: relative;
+    top: 35px;
+    color:var(--color-white);
+ }
+ .pricing_button1{
+    background-color: #EB476E;
+ }
+ .pricing_button2{
+    background-color: var(--color-primary);
+    top: 30px;
+ }
+ .pricing_button3{
+    background-color: var(--color-green);
+ }
     
